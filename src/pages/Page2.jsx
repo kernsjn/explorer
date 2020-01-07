@@ -1,7 +1,11 @@
 import React from 'react'
-
+import NewPlace from '../components/NewPlace'
 const Page2 = () => {
-  return <div>This is another Page</div>
+  return (
+    <div>
+      <NewPlace />
+    </div>
+  )
 }
 
 export default Page2

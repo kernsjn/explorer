@@ -1,7 +1,12 @@
 import React from 'react'
+import AllPlaces from '../components/AllPlaces'
 
 const Page = () => {
-  return <div>This is a Page</div>
+  return (
+    <div>
+      <AllPlaces />{' '}
+    </div>
+  )
 }
 
 export default Page
